@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo apt update
 sudo apt install dkms git
 echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee /etc/apt/sources.list
